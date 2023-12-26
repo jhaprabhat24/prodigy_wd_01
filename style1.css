@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(27, 27, 27);
+}
+
+.main {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 370px;
+    margin: 10px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.car-1 {
+    background-image: url(dodGe3.jpg);
+}
+
+.car-2 {
+    background-image: url(gt3rs1.webp);
+}
+
+.car-3 {
+    background-image: url(g63.avif);
+}
+
+.car-4 {
+    background-image: url(jaguar4.avif);
+}
+
+.car-5 {
+    background-image: url(bmw\ i8.jpg);
+}
+
+.car-6 {
+    background-image: url(bentlu1.jpg);
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
